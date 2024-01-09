@@ -1,23 +1,193 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício html</title>
+    <title>Meu portal de notícias</title>
+    <link rel="stylesheet" href="./main.css" />
 </head>
 <body>
-    <h1>Formulário de Cadastro</h1>
-    <form>
-        <label for="nome">Nome 
-            <input id="nome" type="text" placeholder="Seu Nome" />
-        </label><br>
-        <label for="E-mail">E-mail 
-            <input id="E-mail" type="text" placeholder="E-mail" />
-        </label><br>
-        <label for="Senha">Senha 
-            <input id="Senha" type="text" placeholder="Senha" />
-        </label><br>
-        <button type="submit">Cadastrar</button>
-    </form>
+    <header>
+        <div class="container">
+            <h1>Meu portal de notícias</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                    </li>
+                    <li>
+                        <a href="#arts" title="Ir para a seção de artes">Artes</a>
+                    </li>
+                    <li>
+                        <a href="#tecnology" title="Ir para a seção de tecnologia">Tecnologia</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="sports">
+        <div class="container">
+            <h2>Esportes</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/futebol.jpg" alt="bola de futebol" />
+                    <header>
+                        <time>09/01/2024 às 12:35</time>
+                    </header>
+                    <h3>Grande clássico na noite de hoje</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/futebol-americano.jpg" alt="futebol americano" />
+                    <header>
+                        <time>09/01/2024 às 12:35</time>
+                    </header>
+                    <h3>noite do Superbowl</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/basquete.jpg" alt="Quadra de basquete" />
+                    <header>
+                        <time>09/01/2024 às 12:35</time>
+                    </header>
+                    <h3>Notícia sobre a NBA</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="economy">
+        <div class="container">
+            <h2>Economia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+                    <header>
+                        <time>09/01/2024 às 12:35</time>
+                    </header>
+                    <h3>Dólar em alta de 0.50%</h3>
+                    <p>
+                        Recentemente, o dólar experimentou um aumento de 0.50%. Essa elevação pode ter uma série de implicações econômicas, desde afetar o custo de importações até influenciar os gastos de turistas em viagens internacionais. A flutuação das moedas é uma parte constante do panorama financeiro global, e mesmo um ajuste aparentemente pequeno como esse pode ter repercussões significativas em diversos setores da economia. 
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+                    <header>
+                        <time>09/01/2024 às 12:35</time>
+                    </header>
+                    <h3>Euro em queda de 0.40%</h3>
+                    <p>
+                        Recentemente, o euro registrou uma queda de 0.40%. Essa diminuição pode impactar variados aspectos, desde a competitividade das exportações europeias até o poder de compra de consumidores em países que utilizam essa moeda. Flutuações nas taxas de câmbio são elementos essenciais no cenário econômico global, e mesmo uma variação aparentemente pequena como essa pode desencadear efeitos significativos em diferentes áreas da economia.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+                    <header>
+                        <time>09/01/2024 às 12:35</time>
+                    </header>
+                    <h3>Alta no preço do barril do petróleo</h3>
+                    <p>
+                        Recentemente, o preço do barril de petróleo apresentou um aumento significativo. Essa alta pode desencadear uma série de impactos, desde um possível encarecimento dos combustíveis até influenciar os custos de produção em diversas indústrias. Flutuações nos preços do petróleo são acompanhadas de perto, pois têm repercussões diretas na economia global, afetando desde o custo de vida até as estratégias de investimento em diversos setores.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="arts">
+        <div class="container">
+            <h2>Artes</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/paint-palette.jpg" alt="paleta de cores" />
+                    <header>
+                        <time>09/01/2024 às 12:35</time>
+                    </header>
+                    <h3>Cuide da sua paleta</h3>
+                    <p>
+                        Limpar uma paleta de cores é um processo simples e útil para manter a organização e precisão no trabalho. Para fazer isso, você pode remover cores não utilizadas, reorganizar tons semelhantes e até mesmo nomear as cores de maneira lógica e coerente. Isso ajuda a simplificar a seleção de cores e a tornar o processo de design mais eficiente e intuitivo. Além disso, é recomendável revisar periodicamente a paleta para garantir que apenas as cores essenciais e relevantes permaneçam, mantendo-a atualizada e funcional.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/painting-wall.jpg" alt="pintando a parede" />
+                    <header>
+                        <time>09/01/2024 às 12:35</time>
+                    </header>
+                    <h3>Deixando sua casa mais bonita</h3>
+                    <p>
+                        A pintura residencial é mais do que simplesmente aplicar tinta nas paredes. Ela transforma e renova os espaços, adicionando cor, personalidade e proteção às superfícies. Antes de começar, é crucial preparar a área, incluindo a limpeza das paredes, a remoção de imperfeições e a aplicação de primer, garantindo um resultado final mais duradouro e uniforme. Escolher as cores certas é fundamental para criar a atmosfera desejada, seja para um ambiente acolhedor, vibrante ou relaxante. A pintura residencial não apenas melhora esteticamente um espaço, mas também pode influenciar positivamente o humor e a sensação de bem-estar dos moradores.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/pintura_terceira_idade.jpg" alt="pintura na terceira idade" />
+                    <header>
+                        <time>09/01/2024 às 12:35</time>
+                    </header>
+                    <h3>Pintura em terapia na terceira idade</h3>
+                    <p>
+                        criativa e bem-estar emocional. Essa prática não se trata apenas de criar arte, mas também de proporcionar um espaço relaxante e terapêutico para os idosos. Pintar pode ajudar a estimular a mente, melhorar a coordenação motora e até mesmo aliviar o estresse, oferecendo uma maneira agradável de explorar emoções e memórias. Além disso, essa atividade promove interação social, construindo conexões e fortalecendo o senso de comunidade entre os participantes.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="tecnology">
+        <div class="container">
+            <h2>Tecnologia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/robot.jpg" alt="Robô" />
+                    <header>
+                        <time>09/01/2024 às 12:35</time>
+                    </header>
+                    <h3>Evolução tecnológica no mundo</h3>
+                    <p>
+                        O avanço da robótica tem sido notável, moldando diversos aspectos da vida moderna. Desde a automação industrial até os assistentes virtuais em nossos dispositivos, os robôs têm evoluído em capacidade, inteligência e presença em várias esferas. Essa expansão está transformando a maneira como trabalhamos, interagimos e até mesmo lidamos com questões complexas, como a assistência médica e a exploração espacial. A integração cada vez maior de robôs em diferentes setores promete um futuro emocionante, mas também desafia a sociedade a considerar seu impacto ético e social.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/computer.jpg" alt="codigos no computador" />
+                    <header>
+                        <time>09/01/2024 às 12:35</time>
+                    </header>
+                    <h3>Comunidade investe em facilitar a vida de programadores </h3>
+                    <p>
+                        A facilitação na programação é essencial para simplificar e acelerar o desenvolvimento de software. Isso envolve o uso de ferramentas, linguagens de programação intuitivas e frameworks que reduzem a complexidade e o tempo necessário para escrever código. Além disso, a comunidade de desenvolvedores investe em bibliotecas, documentação clara e ambientes de desenvolvimento integrado (IDEs) que proporcionam uma experiência mais amigável e produtiva. A facilitação na programação não apenas agiliza o processo de desenvolvimento, mas também promove a inovação ao permitir que os programadores se concentrem mais na lógica e nas soluções do que na codificação detalhada.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/processor.jpg" alt="processador" />
+                    <header>
+                        <time>09/01/2024 às 12:35</time>
+                    </header>
+                    <h3>Venda de eletrônicos em baixa</h3>
+                    <p>
+                        Os impostos estão impactando significativamente na venda de eletrônicos, aumentando os preços para os consumidores e dificultando a aquisição desses produtos. Elevadas taxas alfandegárias, impostos de importação ou tributação interna encarecem os eletrônicos, diminuindo a demanda e afetando a acessibilidade para muitos compradores. Essa situação desafia a indústria a buscar alternativas para minimizar esses custos extras, seja por meio de estratégias de produção local, negociações tarifárias ou até mesmo advocacia por mudanças nas políticas fiscais para tornar esses produtos mais acessíveis ao público.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
