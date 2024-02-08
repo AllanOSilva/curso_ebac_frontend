@@ -1,0 +1,28 @@
+*{
+    padding: 8PX;
+}
+
+body{
+    background-color: aqua;
+}
+
+textarea{
+    resize:none
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    margin-top: 8px;
+    display: block;
+    font-style: italic;
+    font-weight: bold;
+}
